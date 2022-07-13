@@ -260,6 +260,7 @@ article .box {
 
 .pie-pagina .grupo_2{
     background-color: #ffffff;
+    width: 1200px;
     padding: 15px 10px;
     text-align: center;
     color: #ba9813;
@@ -449,7 +450,25 @@ article .box {
 
 .boton__contacto{
     width: auto;
+    margin-bottom: 300px;
 }
+
+#gradiente{
+    background-image: linear-gradient(white,#ba9813);
+}
+
+.animacion__cam{
+    font-size: 4rem;
+    margin: auto;
+    border-radius: 30%;
+    padding: 0%;
+}
+
+.animacion__cam:hover{
+    transform: scale(2,2);
+    opacity: 90%;
+}
+
 
 /* Medias */
 
@@ -486,6 +505,10 @@ article .box {
         justify-items: center;
         margin: 0%;
 	}
+
+    .pie-pagina .grupo_2 {
+        width: 940px;
+    }
 
     .video__sobreNosotros{
         width:410px;
@@ -578,6 +601,10 @@ article .box {
         justify-items: center;
         margin: 0%;
 	}
+
+    .pie-pagina .grupo_2 {
+        width: 460px;
+    }
     
     .box__nosotros{
         height: 1600px;
