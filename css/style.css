@@ -457,8 +457,38 @@ article .box {
 }
 
 @media screen and (max-width:960px){
+    header {
+		flex-direction: column;
+	}
+
+	.menu {
+		flex-direction: column;
+	}
+
+    .box__nosotros{
+        flex-direction: column;
+    }
+
+	.pie-pagina {
+		flex-direction: column;
+	}
+
+	.caja {
+		justify-content: flex-end;
+		align-items: flex-start;
+		background-size:cover;
+		height: 350px;
+		align-items: flex-end;
+	}
+
+	.pie-pagina .grupo_1 {
+		grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin: 0%;
+	}
+
     .video__sobreNosotros{
-        width:420px;
+        width:410px;
         height: 350px;
     }
 
@@ -545,6 +575,8 @@ article .box {
 
 	.pie-pagina .grupo_1 {
 		grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin: 0%;
 	}
     
     .box__nosotros{
