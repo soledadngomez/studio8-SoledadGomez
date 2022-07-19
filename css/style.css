@@ -25,65 +25,27 @@ img{
     width: 100%;
 }
 
-
 .header__img{
     align-items: center;
+    width: 150px;
 }
 
-.menu{
-    display: flex;
-    list-style: none;
-    gap: 30px;
-    position: relative;
+.nav-item{
+    font-family:'Montserrat', sans-serif;
+    font-size: 62,5%;
 }
-
-.menu__link{
-    text-decoration: none;
-    font-size: 1.2em;
+.nav-link{
     color: #ba9813;
-    padding: 1.2rem;
-    transition: all 1s;
 }
 
-.submenu{
-    list-style: none;
-    display: none;
-    position: absolute;
-    padding-left: 23px;
+.nav-link:hover{
+    color: #636363;
 }
-
-.submenu__link{
-    text-decoration: none;
-    font-size: 1 rem;
-    padding: 1 rem;
-    color: #ba9813;
-    background-color: whitesmoke;
-}
-
-.menu__item:hover .submenu{
-    display: block;
-}
-
-.submenu__item{
-    padding: 1rem 0;
-}
-
 /* Home */
 
 main{
     display: flex;
     flex-wrap: wrap;
-}
-
-.caja{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    height: 600px;
-    background-image: url("../img/hosein-shirvani-scFNqafA5zM-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
 }
 
 .letras_img{
@@ -387,13 +349,18 @@ article .box {
 
 /* Presupuesto */
 
+.letras__presupuesto{
+    width: 160px;
+    margin-top: 10px;
+}
+
 .form-register {
     width: 500px;
-    height: 460px;
+    height: 500px;
     background: #ba9813;
     padding: 30px;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 35px;
     margin-bottom: 25px;
     border-radius: 4px;
     font-family: 'Montserrat' ;
@@ -449,7 +416,7 @@ article .box {
 /* Contacto */
 
 .boton__contacto{
-    width: auto;
+    width: 160px;
     margin-bottom: 300px;
 }
 
