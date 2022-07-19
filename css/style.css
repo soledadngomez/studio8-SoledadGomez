@@ -38,6 +38,9 @@ img{
     color: #ba9813;
 }
 
+.nav-link:hover{
+    color: #636363;
+}
 /* Home */
 
 main{
@@ -347,7 +350,7 @@ article .box {
 /* Presupuesto */
 
 .letras__presupuesto{
-    width: 200px;
+    width: 160px;
     margin-top: 10px;
 }
 
@@ -413,7 +416,7 @@ article .box {
 /* Contacto */
 
 .boton__contacto{
-    width: auto;
+    width: 160px;
     margin-bottom: 300px;
 }
 
