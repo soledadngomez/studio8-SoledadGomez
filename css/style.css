@@ -255,6 +255,10 @@ article .box {
 
 }
 
+.nosotros__img{
+    height: 676px;
+}
+
 .sobre__nosotros{
     grid-column: 7 / 13;
     grid-row: 1 / 3;
